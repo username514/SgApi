@@ -1,0 +1,82 @@
+{
+  "groups": [
+    {
+      "name": "spring.redis",
+      "type": "com.sg.sgapibackend.config.RedissonConfig",
+      "sourceType": "com.sg.sgapibackend.config.RedissonConfig"
+    },
+    {
+      "name": "tencent-cloud.sms",
+      "type": "com.sg.sgapibackend.config.TencentCloudConfig",
+      "sourceType": "com.sg.sgapibackend.config.TencentCloudConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "cos.client.accessKey",
+      "type": "java.lang.String",
+      "description": "Description for cos.client.accessKey."
+    },
+    {
+      "name": "cos.client.bucket",
+      "type": "java.lang.String",
+      "description": "Description for cos.client.bucket."
+    },
+    {
+      "name": "cos.client.region",
+      "type": "java.lang.String",
+      "description": "Description for cos.client.region."
+    },
+    {
+      "name": "cos.client.secretKey",
+      "type": "java.lang.String",
+      "description": "Description for cos.client.secretKey."
+    },
+    {
+      "name": "spring.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "com.sg.sgapibackend.config.RedissonConfig"
+    },
+    {
+      "name": "spring.redis.password",
+      "type": "java.lang.String",
+      "sourceType": "com.sg.sgapibackend.config.RedissonConfig"
+    },
+    {
+      "name": "spring.redis.port",
+      "type": "java.lang.String",
+      "sourceType": "com.sg.sgapibackend.config.RedissonConfig"
+    },
+    {
+      "name": "tencent-cloud.sms.sdk-app-id",
+      "type": "java.lang.String",
+      "sourceType": "com.sg.sgapibackend.config.TencentCloudConfig"
+    },
+    {
+      "name": "tencent-cloud.sms.secret-id",
+      "type": "java.lang.String",
+      "sourceType": "com.sg.sgapibackend.config.TencentCloudConfig"
+    },
+    {
+      "name": "tencent-cloud.sms.secret-key",
+      "type": "java.lang.String",
+      "sourceType": "com.sg.sgapibackend.config.TencentCloudConfig"
+    },
+    {
+      "name": "tencent-cloud.sms.template-id",
+      "type": "java.lang.String",
+      "sourceType": "com.sg.sgapibackend.config.TencentCloudConfig"
+    },
+    {
+      "name": "wx.open.appId",
+      "type": "java.lang.String",
+      "description": "Description for wx.open.appId."
+    },
+    {
+      "name": "wx.open.appSecret",
+      "type": "java.lang.String",
+      "description": "Description for wx.open.appSecret."
+    }
+  ],
+  "hints": []
+}

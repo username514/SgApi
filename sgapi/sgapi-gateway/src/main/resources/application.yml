@@ -1,0 +1,30 @@
+server:
+  port: 8000
+spring:
+  redis:
+    database: 10
+    host: 192.168.216.103 # todo redis地址
+    port: 6379 # todo redis端口号
+    timeout: 5000
+    password: 123 # todo redis密码
+  cloud:
+    gateway:
+      default-filters:
+        - AddResponseHeader=X-Source, gigotapi
+      routes:
+        - id: api_route
+          uri: http://localhost:8002
+          predicates:
+            - Path=/api/**
+# 以下配置指定了应用的名称、使用的协议（Dubbo）、注册中心的类型（Nacos）和地址
+dubbo:
+  application:
+    name: dubbo-springboot-demo-provider
+  consumer:
+    timeout: 3000
+  protocol:
+    name: dubbo
+    port: 22223
+  registry:
+    id: nacos-registry
+    address: nacos://localhost:8848

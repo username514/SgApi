@@ -1,0 +1,92 @@
+
+spring:
+  application:
+    name: sgapi-backend
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  # 数据库配置
+  # 需替换配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/gigot_api
+    username: root
+    password: 123456
+
+  # session 配置
+  session:
+    timeout: 86400
+    store-type: redis
+  # Redis 配置
+  # redis 配置
+  redis:
+    port: 6379
+    host: 192.168.216.103
+    password: 123
+    database: 10
+  # Elasticsearch 配置
+  # todo 需替换配置，然后取消注释
+#  elasticsearch:
+#    uris: http://localhost:9200
+#    username: root
+#    password: 123456
+#   文件上传
+  servlet:
+    multipart:
+      # 大小限制
+      max-file-size: 10MB
+server:
+  address: 0.0.0.0
+  port: 8001 # todo 端口号
+  servlet:
+    context-path: /api
+    # cookie 30 天过期
+    session:
+      cookie:
+        max-age: 2592000
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      logic-delete-field: isDelete # 全局逻辑删除的实体字段名
+      logic-delete-value: 1 # 逻辑已删除值（默认为 1）
+      logic-not-delete-value: 0 # 逻辑未删除值（默认为 0）
+logging:
+  level:
+    root: INFO
+# 以下配置指定了应用的名称、使用的协议（Dubbo）、注册中心的类型（Nacos）和地址
+dubbo:
+  application:
+    name: dubbo-springboot-demo-provider
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    id: nacos-registry
+    address: nacos://localhost:8848
+
+# todo Sgapi开放平台
+gigot-api:
+  upload:
+    # 头像存放地址
+    avatarUrlFilePath: "src/main/resources/static/img/avatarUrl"
+    # api接口地址
+    apiUrl: "http://localhost:8001"
+  client:
+    # 开放平台密钥
+    secret-id:
+    secret-key:
+  # 发邮箱相关配置
+  mail:
+    user: 3145054834@qq.com
+    password: ofmsisfscwucdgce
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true
+  # SDK存放地址 用于提供给用户SDK下载
+  sdk:
+    download: "src/main/resources/static/sdk/gigotapi-client-sdk-0.0.3.jar"
