@@ -14,23 +14,25 @@
 ## 目录结构 📑
 
 
-| 目录                                                     | 描述               |
-|--------------------------------------------------------| ------------------ |
-| **🏘️ [sgapi-backend]**           | SgApi后端服务模块 |
-| **🏘️ [sgapi-common]**             | 公共服务模块       |
-| **🕸️ [sgapi-gateway]**          | 网关模块           |
-| **🔗 [sgapi-interface]**        | 接口模块           |
-| **🛠 [sgapi-client-sdk]** | 开发者调用sdk      |
+| 目录                     | 描述              |
+| ------------------------ | ----------------- |
+| **🏘️ [sgapi-backend]**    | SgApi后端服务模块 |
+| **🏘️ [sgapi-common]**     | 公共服务模块      |
+| **🕸️ [sgapi-gateway]**    | 网关模块          |
+| **🔗 [sgapi-interface]**  | 接口模块          |
+| **🛠 [sgapi-client-sdk]** | 开发者调用sdk     |
 
 ## 我们的优势 😎
 
 1. **客户端SDK支持：** 提供客户端SDK，方便您快速集成到你的项目中。
 2. **简洁高效：** 稳定、安全、高效的接口调用服务，帮助您实现更快速、便捷的开发和调用体验。
-4. **多样化的接口选择：** 丰富多样的接口供您选择，涵盖了各个领域的功能和服务，满足不同的需求。
-5. **高质量数据**：我们的开放平台致力于提供高质量、实时的数据，以满足开发者的各种需求。
-6. **可视化在线调试：** 可视化展示更加直观，快速验证接口的功能和效果，提高开发效率。
+3. **多样化的接口选择：** 丰富多样的接口供您选择，涵盖了各个领域的功能和服务，满足不同的需求。
+4. **高质量数据**：我们的开放平台致力于提供高质量、实时的数据，以满足开发者的各种需求。
+5. **可视化在线调试：** 可视化展示更加直观，快速验证接口的功能和效果，提高开发效率。
 
 ## 项目流程 🗺️
+
+![项目流程](https://github.com/username514/SgApi/blob/master/sgapi/sgapi-backend/src/main/resources/static/img/avatarUrl/img_9.png?raw=true)
 
 ## 快速启动 🚀
 
@@ -111,39 +113,55 @@ yarn build or npm run build
 
 ### 首页
 
+![首页](https://github.com/username514/SgApi/blob/master/sgapi/sgapi-backend/src/main/resources/static/img/avatarUrl/img_3.png?raw=true)
+
 ### 接口集市
+
+![](https://github.com/username514/SgApi/blob/master/sgapi/sgapi-backend/src/main/resources/static/img/avatarUrl/img_6.png?raw=true)
 
 ### 接口描述
 
 #### **在线API**
 
+![](https://github.com/username514/SgApi/blob/master/sgapi/sgapi-backend/src/main/resources/static/img/avatarUrl/img_10.png?raw=true)
+
 #### 在线调试工具
 
+![](https://github.com/username514/SgApi/blob/master/sgapi/sgapi-backend/src/main/resources/static/img/avatarUrl/img_11.png?raw=true)
+
 #### **错误码参考**
+
+![](https://github.com/username514/SgApi/blob/master/sgapi/sgapi-backend/src/main/resources/static/img/avatarUrl/img_12.png?raw=true)
+
+<h4>示例代码
+
+![](https://github.com/username514/SgApi/blob/master/sgapi/sgapi-backend/src/main/resources/static/img/avatarUrl/img_13.png?raw=true)
 
 ### 管理页
 
 #### 用户管理
 
+![用户管理](https://github.com/username514/SgApi/blob/master/sgapi/sgapi-backend/src/main/resources/static/img/avatarUrl/img_4.png?raw=true)
+
 #### 接口管理
 
-#### 动态更新请求响应参数
+![接口管理](https://github.com/username514/SgApi/blob/master/sgapi/sgapi-backend/src/main/resources/static/img/avatarUrl/img_5.png?raw=true)
 
 ### 个人信息
 
 #### 信息展示
 
-
-
-
+![](https://github.com/username514/SgApi/blob/master/sgapi/sgapi-backend/src/main/resources/static/img/avatarUrl/img_8.png?raw=true)
 
 ### 登录/注册
 
-#### 登录方式
+![](https://github.com/username514/SgApi/blob/master/sgapi/sgapi-backend/src/main/resources/static/img/avatarUrl/img.png?raw=true)
 
+![](https://github.com/username514/SgApi/blob/master/sgapi/sgapi-backend/src/main/resources/static/img/avatarUrl/img_1.png?raw=true)
 
+![](https://github.com/username514/SgApi/blob/master/sgapi/sgapi-backend/src/main/resources/static/img/avatarUrl/img_2.png?raw=true)
 
+<h3>运行分析
 
-
-#### 
+![](https://github.com/username514/SgApi/blob/master/sgapi/sgapi-backend/src/main/resources/static/img/avatarUrl/img_7.png?raw=true)
 
